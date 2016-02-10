@@ -1,0 +1,28 @@
+{
+  "name": "intro-react",
+  "version": "1.0.0",
+  "description": "In the several branches of this repo, named for sections in the course, you will find code that goes with those sections. Check out the branch to use the code.",
+  "main": "index.js",
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "jquery": "^2.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/start.js -t babelify --outfile public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misuba/intro-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misuba/intro-react/issues"
+  },
+  "homepage": "https://github.com/misuba/intro-react#readme"
+}
